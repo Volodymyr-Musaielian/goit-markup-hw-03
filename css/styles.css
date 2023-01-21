@@ -319,6 +319,10 @@ header .link {
   padding-left: 16px;
 }
 
+.work-card .text {
+  padding-bottom: 32px;
+}
+
 .work-item {
   width: 360px;
   height: 420px;
