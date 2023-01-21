@@ -284,9 +284,6 @@ header .link {
   padding-bottom: 72px;
 }
 
-.filter-list {
-}
-
 .filter-btn {
   color: var(--accent-color);
   background-color: var(--secondary-bg-color);
