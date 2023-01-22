@@ -168,6 +168,7 @@ header .link {
   background: var(--primary-text-color);
   color: var(--white-color);
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -181,6 +182,15 @@ header .link {
 }
 
 /* Sections */
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-top {
+  padding-top: 0;
+}
 
 .section-title {
   font-weight: 700;
@@ -198,8 +208,6 @@ header .link {
 
 .feature-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .feature-list .item {
@@ -212,11 +220,6 @@ header .link {
 }
 
 /* "What are we doing" and team sections */
-
-.skills-list,
-.team-list {
-  padding-bottom: 120px;
-}
 
 .skills-list,
 .team-list {
@@ -235,24 +238,13 @@ header .link {
 
 /* Our team */
 
-.team-title {
-  padding-top: 120px;
-}
-
 .team-card {
   text-align: center;
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team-card .title {
   padding-top: 32px;
-  margin-bottom: 8px;
-}
-
-.team-card .text {
   padding-bottom: 32px;
 }
 
@@ -266,7 +258,6 @@ header .link {
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-bottom: 188px;
 }
 
 .btn-order:hover,
@@ -275,13 +266,19 @@ header .link {
   background-color: var(--secondary-accent-color);
 }
 
+/* Portfolio */
+
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 /* Filter */
 
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -307,7 +304,6 @@ header .link {
 .works {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
 }
 
 .work-card {
@@ -315,17 +311,12 @@ header .link {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding-top: 32px;
-  margin-bottom: 8px;
-  padding-left: 16px;
-}
-
-.work-card .text {
   padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .work-item {
   width: 360px;
-  height: 420px;
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -341,16 +332,16 @@ header .link {
 
 footer {
   background-color: var(--primary-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 footer .logo {
   color: var(--secondary-bg-color);
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 
 footer .text {
   color: #e7e9fc;
   width: 264px;
-  padding-bottom: 100px;
 }
